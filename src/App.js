@@ -1,6 +1,6 @@
 import React from "react";
 import {
-  HashRouter as Router,
+  BrowserRouter,
   Switch,
   Route,
 } from "react-router-dom";
@@ -14,19 +14,19 @@ import './App.css'
 
 function App() {
   return (
-    <Router>
+    <BrowserRouter>
       <div className="App">
         <Navbar />
         <Switch>
-          <Route exect path="/about">
+          <Route path="/about">
             <About />
           </Route>
-          <Route path="/">
+          <Route path="/react-shopping">
             <Home />
           </Route>
         </Switch>
       </div>
-    </Router>
+    </BrowserRouter>
   );
 }
 

@@ -7,7 +7,7 @@ function MainNavbar() {
     return (
         <Navbar bg="dark" variant="dark">
             <Container>
-                <Navbar.Brand href="/">
+                <Navbar.Brand href="react-shopping">
                     <img
                         alt=""
                         src={Logo}
