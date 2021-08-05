@@ -1,4 +1,5 @@
-# Sample housing renting web site - Simple level
+# Sample housing renting web site - Basic level
+Its more about responsive layout 
 
 # Getting Started with Create React App
 
